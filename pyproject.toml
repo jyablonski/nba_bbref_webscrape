@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nba_bbref_webscrape"
-version = "0.0.5"
+version = "0.0.6"
 description = "Scraping basketball-reference.com w/ Pandas and BeautifulSoup4"
 authors = ["jyablonski9 <jyablonski9@gmail.com>"]
 
@@ -22,7 +22,7 @@ praw = "7.5.0"
 lxml = "4.8.0"
 html5lib = "1.1"
 PyYAML = "5.4.1"
-twint = {git = "https://github.com/Museum-Barberini/twint.git"}
+twint = "2.1.20"
 
 
 [tool.poetry.dev-dependencies]
